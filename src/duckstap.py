@@ -3,7 +3,7 @@
 from lib import staplermath
 from lib import fileparser
 
-fileparse = fileparser.parsestring
+fileparse = fileparser.fileparser.parsestring
 
 class duckstap:
     def __init__(self):
