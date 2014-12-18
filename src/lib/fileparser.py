@@ -4,20 +4,21 @@
 # Can be used just with number of string.
 # Already returns number of next string.
 
-import staplerops, outputter
+from . import staplerops, outputter
 
 class fileparser:
     def __init__(self):
+        a=0
         
     def parsestring(self, string):
         if string[0] == '$':
-            tocalc(string.split("(")[1][:-1], string.split("(")[2][:-1])
+            staplerops.stap(string.split("(")[1][:-1], string.split("(")[2][:-1])
         if string[0] == '#':
-            todiez(string.split("(")[:-1], string.split("<")[:-1])
+            staplerops.diez(string.split("(")[:-1], string.split("<")[:-1])
         if string[0] == '[':
-            toprint(string[1:-1])
+            outputter.tocons(string[1:-1])
         
-        return self.get_next_string
+        return self.get_next_string()
     
-    def get_next_string(self):
-        """ """
+    def get_next_string(self, optype):
+        a = 0

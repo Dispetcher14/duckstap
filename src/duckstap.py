@@ -3,6 +3,7 @@
 from lib import staplermath
 from lib import fileparser
 
+fileparse = fileparser.parsestring
 
 class duckstap:
     def __init__(self):
@@ -16,4 +17,4 @@ class duckstap:
         infile = 0
         
         while infile < (self.flong-1):
-            infile = fileparser(infile)
+            infile = fileparse(infile)

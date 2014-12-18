@@ -24,7 +24,12 @@ long_line_column=72
 
 [files]
 current_page=0
-FILE_NAME_0=0;Python;0;EUTF-8;0;1;0;%2Fhome%2Fdispetcher14%2Fduckstap%2Fsrc%2Fduckstap.py;0;4
+FILE_NAME_0=369;Python;0;EUTF-8;0;1;0;%2Fhome%2Fdispetcher14%2Fduckstap%2Fsrc%2Fduckstap.py;0;4
+FILE_NAME_1=100;Python;0;EUTF-8;0;1;0;%2Fhome%2Fdispetcher14%2Fduckstap%2Fsrc%2Fconf%2Fregistered.py;0;4
+FILE_NAME_2=107;Python;0;EUTF-8;0;1;0;%2Fhome%2Fdispetcher14%2Fduckstap%2Fsrc%2Flib%2Fstaplermath.py;0;4
+FILE_NAME_3=451;Python;0;EUTF-8;0;1;0;%2Fhome%2Fdispetcher14%2Fd14-trash%2Fscm.py;0;4
+FILE_NAME_4=924;Python;0;EUTF-8;0;1;0;%2Fhome%2Fdispetcher14%2Fd14-trash%2Fduckstap.py;0;4
+FILE_NAME_5=146;Python;0;EUTF-8;0;1;0;%2Fhome%2Fdispetcher14%2Fduckstap%2Fsrc%2Flib%2Ffileparser.py;0;4
 
 [VTE]
 last_dir=/home/dispetcher14
