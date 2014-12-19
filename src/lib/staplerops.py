@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 
-from . import common, ops
-
 
 class staplerops:
     def __init__(self):
-        a=0
-    
-    
+        self.stap = __import__(common['stap'])
+        self.diez = __import__(common['diez'])
+
